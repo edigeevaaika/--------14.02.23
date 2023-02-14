@@ -6,11 +6,15 @@ let aboutmyself = {
   lastname: "Edigeeva",
   status: "merried",
   children: 3,
+  sayHello:function(){},
+  console.log("Hello");
 };
 console.log(aboutmyself.age);
 
 //view ,edit,add
 console.log(joldosh.name);
+
+
 joldosh.age = 23;
 console.log (joldosh.age);
 joldosh.favouriteBooks =["Harry Potor","Harry Potor-2"];
@@ -18,6 +22,7 @@ joldosh.favouriteBooks =["Harry Potor","Harry Potor-2"];
 //delete
 delete joldosh.favouriteBooks;
 console.log(joldosh.favouriteBooks);
+
 
 
 // aboutmyself.children = 5;
