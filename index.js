@@ -48,4 +48,28 @@ console.log(joldosh.name);
 // console.log (aboutmyself.children);
 
 
-let exasmple2 
+let exasmple2 = {
+  number: 0,
+  inc: function(){
+    this.number = this.number + 1;
+  },
+  dcr: function(){
+    this.number = this.number - 1;
+  },
+  add: function(num) {
+    this.number = this.number + num;
+  },
+  subtract: function(num) {
+    this.number = this.number - num;
+  },
+}
+
+console.log (exasmple2.number);
+exasmple2.inc();
+exasmple2.inc();
+console.log(exasmple2.number);
+exasmple2.add(5);
+console.log(exasmple2.number);
+exasmple2.inc();
+exasmple2.inc();
+console.log(exasmple2.number);
