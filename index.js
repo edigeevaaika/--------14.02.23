@@ -62,6 +62,9 @@ let exasmple2 = {
   subtract: function(num) {
     this.number = this.number - num;
   },
+  print: function(){
+    console.log(this.number);
+  }
 }
 
 console.log (exasmple2.number);
@@ -73,3 +76,5 @@ console.log(exasmple2.number);
 exasmple2.inc();
 exasmple2.inc();
 console.log(exasmple2.number);
+exasmple2.subtract(4);
+exasmple2.print();
